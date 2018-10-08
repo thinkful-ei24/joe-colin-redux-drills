@@ -1,9 +1,9 @@
 import {SET_PRINCIPAL, SET_INTEREST, SET_YEARS} from '../actions';
 
 const initialState = {
-    principal: 10000,
-    interest: 3,
-    years: 5
+    principal: 0,
+    interest: 0,
+    years: 0
 };
 
 export const interestCalculatorReducer = (state=initialState, action) => {
